@@ -1,20 +1,20 @@
 ### Requirements:
 
--   PHP >= 7.4
--   Composer
+    - PHP >= 7.4
+    - Composer
 
 ### Optional Requirements
 
--   Docker
+    - Docker
 
 ### Docker Installation
 
--   cd docker
--   docker-compose up -d --build
+    - cd docker
+    - docker-compose up -d --build
 
 ### Without Docker Installation
 
--   composer install
+    - composer install
 
 ### Visit site with Docker
 
@@ -32,15 +32,15 @@
     - [getAvailableStatusCodes] method
 4. visit `/api/users/ to filter the result
    allowed filters in the query string are (all are case insensitive):
-   provider
-   [demo](http://localhost:81/api/users?provider=DataProviderX)
-   currency
-   [demo](http://localhost:81/api/users?currency=USD)
-   balanceMin
-   [demo](http://localhost:81/api/users?balanceMin=300)
-   balanceMax
-   [demo](http://localhost:81/api/users?balanceMax=300)
-   status
-   [demo](http://localhost:81/api/users?status=declined)
+    - provider
+      [demo](http://localhost:81/api/users?provider=DataProviderX)
+    - currency
+      [demo](http://localhost:81/api/users?currency=USD)
+    - balanceMin
+      [demo](http://localhost:81/api/users?balanceMin=300)
+    - balanceMax
+      [demo](http://localhost:81/api/users?balanceMax=300)
+    - status
+      [demo](http://localhost:81/api/users?status=declined)
 5. all filters together
-   example: `http://you-server.test/api/users?provider=DataProviderX&status=declined&balanceMin=200`
+    - [demo](http://you-server.test/api/users?provider=DataProviderX&status=declined&balanceMin=200)
