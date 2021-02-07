@@ -1,0 +1,48 @@
+{
+    "DataProviderX":[
+        {
+            "parentAmount":200,
+            "Currency":"USD",
+            "parentEmail":"parent1@parent.eu",
+            "statusCode":1,
+            "registerationDate": "2018-11-30",
+            "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "parentAmount":300,
+            "Currency":"USD",
+            "parentEmail":"parent2@parent.eu",
+            "statusCode":2,
+            "registerationDate": "2018-11-31",
+            "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a614"
+        },
+        {
+            "parentAmount":3000,
+            "Currency":"EGP",
+            "parentEmail":"parent3@parent.eu",
+            "statusCode":3,
+            "registerationDate": "2018-11-31",
+            "parentIdentification": "d3d29d70-1d25-11e3-8591-034165a3a619"
+        }
+    ],
+    "DataProviderY":[
+        {
+            "balance":300,
+            "currency":"AED",
+            "email":"parent2@parent.eu",
+            "status":100,
+            "created_at": "22/12/2018",
+            "id": "4fc2-a8d1"
+        }
+    ],
+    "DataProviderZ":[
+        {
+            "UserBalance":900,
+            "currency":"AED",
+            "email":"parent2@parent.eu",
+            "status":"refunded",
+            "date": "22/12/2018",
+            "id": "4fc2-a8d1"
+        }
+    ]
+}
