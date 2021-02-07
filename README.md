@@ -9,16 +9,16 @@
 
 ### Docker Installation
 
-    - `cd docker`
-    - `docker-compose up -d --build`
+    - cd docker
+    - docker-compose up -d --build
 
 ### Without Docker Installation
 
-    - run `composer install`
+    - composer install
 
 ### Visit site with Docker
 
-    See [Live Demo](http://localhost:81/api/user)
+    [Live Demo](http://localhost:81/api/user)
 
 ### How the project is structured?
 
@@ -32,25 +32,15 @@
     - visit `/api/users/ to filter the result
     - allowed filters in the query string are (all are case insensitive):
         - provider
-            ```sh
-                http://localhost:81/api/users?provider=DataProviderX
-            ```
+                [demo](http://localhost:81/api/users?provider=DataProviderX)
         - currency
-            ```sh
-                http://localhost:81/api/users?currency=USD
-            ```
+                [demo](http://localhost:81/api/users?currency=USD)
         - balanceMin
-            ```sh
-                http://localhost:81/api/users?balanceMin=300
-            ```
+                [demo](http://localhost:81/api/users?balanceMin=300)
         - balanceMax
-            ```sh
-                http://localhost:81/api/users?balanceMax=300
-            ```
+                [demo](http://localhost:81/api/users?balanceMax=300)
         - status
             * [available status] ('authorized', 'declined', 'refunded')
-            ```sh
-                http://localhost:81/api/users?status=declined
-            ```
+                [demo](http://localhost:81/api/users?status=declined)
     - all filters together
     example: `http://you-server.test/api/users?provider=DataProviderX&status=declined&balanceMin=200`
