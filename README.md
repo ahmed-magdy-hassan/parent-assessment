@@ -18,7 +18,7 @@
 
 ### Visit site with Docker
 
-[Live Demo](http://localhost:81/api/user/)
+[Live Demo](http://localhost:81/api/users/)
 
 ### How the project is structured?
 
